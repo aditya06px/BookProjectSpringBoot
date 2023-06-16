@@ -11,6 +11,7 @@ public class BooksApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BooksApplication.class, args);
+		System.out.println("Hi Aadi from krushakat!!");
 	}
 	
 	@Bean // equivalent to <bean id ..../> in xml file
